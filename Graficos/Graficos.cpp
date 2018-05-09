@@ -331,7 +331,7 @@ int main()
 		//Si no se inició bien, terminar la ejecución
 		exit(EXIT_FAILURE);
 	}
-
+	 
 	//Inicializar la ventana
 	window = glfwCreateWindow(ancho, alto, "Graficos", NULL, NULL);
 	//Verficar si se creó bien la ventana
