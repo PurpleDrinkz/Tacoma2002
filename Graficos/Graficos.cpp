@@ -372,7 +372,7 @@ int main()
 	//crear instancia del shader
 	const char * rutaVertex = "vShaderSimple.shader";
 	const char * rutaFragment = "fShaderSimple.shader";
-
+	 
 	shader = new  Shader(rutaVertex, rutaFragment);
 
 	//Mapeo de atributos 
